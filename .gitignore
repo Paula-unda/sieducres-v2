@@ -1,0 +1,29 @@
+# Entornos virtuales de Python
+venv/
+env/
+*.egg-info/
+
+# Cache y bytecode de Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Variables de entorno (CONTIENE CONTRASEÑAS - nunca se sube)
+.env
+
+# Archivos subidos por usuarios durante las pruebas (contenido de prueba,
+# no forma parte del codigo fuente del proyecto)
+backend/uploads/contenidos/*
+backend/uploads/materiales/*
+!backend/uploads/contenidos/.gitkeep
+!backend/uploads/materiales/.gitkeep
+
+# Archivos generados por el sistema operativo
+.DS_Store
+Thumbs.db
+
+# Configuracion local de VS Code
+.vscode/
+
+# Archivos temporales de Flet
+app/build/
